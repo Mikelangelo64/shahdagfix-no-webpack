@@ -1,0 +1,1558 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shahdagfix - form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="_container header__container">
+        <div class="header__wrapper">
+          <a class="logo-link header__logo" href="#">
+            <img src="assets/img/logo.svg" alt="logo" draggable="false" />
+          </a>
+          <nav class="menu header__menu">
+            <ul class="menu-list">
+              <li class="menu-list__item">
+                <a class="menu__link" href="#" data-goto="false">Main</a>
+              </li>
+              <li class="menu-list__item">
+                <button
+                  class="menu__link popup-open"
+                  data-popup="_popup-pricing"
+                >
+                  Our pricing
+                </button>
+              </li>
+              <li class="menu-list__item">
+                <a class="menu__link anchor" href="#" data-goto=".footer">
+                  Conctact us
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <div class="header__buttons">
+            <a class="header__call" href="tel:+380930558669">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="24"
+                height="24"
+                viewBox="0 0 24 24"
+                fill="none"
+              >
+                <path
+                  d="M20.6789 16.704C19.2291 15.464 17.7577 14.7128 16.3257 15.951L15.4706 16.6993C14.8449 17.2425 13.6817 19.7807 9.1842 14.607C4.68766 9.43986 7.36348 8.63533 7.99006 8.0968L8.84984 7.34753C10.2744 6.10655 9.73679 4.54433 8.70936 2.93621L8.08934 1.96216C7.05722 0.35779 5.93332 -0.695869 4.50502 0.543234L3.73328 1.21758C3.10202 1.67744 1.33749 3.17223 0.909472 6.01196C0.39435 9.41925 2.01933 13.3211 5.74225 17.6022C9.4605 21.8852 13.101 24.0365 16.5495 23.9991C19.4155 23.9682 21.1463 22.4303 21.6876 21.8712L22.4622 21.1959C23.8867 19.9577 23.0016 18.6971 21.5509 17.4542L20.6789 16.704Z"
+                  fill="currentColor"
+                />
+              </svg>
+              <span>+38 093 055 86 69</span>
+            </a>
+            <button
+              class="button-dark popup-open header__button"
+              data-popup="_popup-pricing"
+            >
+              <span>Schedule service</span>
+            </button>
+            <button
+              class="menu-burger popup-open"
+              data-popup="_popup-menu"
+            ></button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-pricing pricing__popup fullscreen-phone"
+        data-popupname="_popup-pricing"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img
+                class="desktop"
+                src="assets/img/popup-close.svg"
+                alt="close"
+              />
+              <img
+                class="mobile"
+                src="assets/img/popup-close-black.svg"
+                alt="close"
+              />
+            </button>
+            <div class="popup__content">
+              <div class="pricing">
+                <div class="pricing__wrapper">
+                  <p class="pricing__title">Services pricing</p>
+                  <div class="pricing__main fade-section">
+                    <div class="fade-section__list pricing__navigation">
+                      <ul class="pricing__navigation__inner">
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button active"
+                            data-item="1"
+                            aria-label="undefined"
+                          >
+                            <span>Category 1</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="2"
+                            aria-label="undefined"
+                          >
+                            <span>Category 2</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="4"
+                            aria-label="undefined"
+                          >
+                            <span>Category 2</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="3"
+                            aria-label="undefined"
+                          >
+                            <span>Category 3</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="4"
+                            aria-label="undefined"
+                          >
+                            <span>Category 4</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="5"
+                            aria-label="undefined"
+                          >
+                            <span>Category 5</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="6"
+                            aria-label="undefined"
+                          >
+                            <span>Category 6</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="7"
+                            aria-label="undefined"
+                          >
+                            <span>Category 7</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="8"
+                            aria-label="undefined"
+                          >
+                            <span>Category 8</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="9"
+                            aria-label="undefined"
+                          >
+                            <span>Category 9</span>
+                          </button>
+                        </li>
+                        <li>
+                          <button
+                            class="fade-section__button pricing__button"
+                            data-item="10"
+                            aria-label="undefined"
+                          >
+                            <span>Category 10</span>
+                          </button>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="pricing__content">
+                      <div class="fade-section-content">
+                        <div class="fade-section-content__item" data-item="1">
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">Inspection</p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">Inspection</p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="2"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="4"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="3"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="4"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="5"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="6"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="7"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="8"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="9"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                        <div
+                          class="fade-section-content__item unactive"
+                          data-item="10"
+                        >
+                          <ul class="pricing-list">
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Drywall repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$69.00</p>
+                              </div>
+                            </li>
+                            <li class="pricing-list__item">
+                              <p class="pricing-list__content">
+                                Appliance repair
+                              </p>
+                              <div class="pricing-list__content">
+                                <p class="pricing-list__subtitle">
+                                  Starting at
+                                </p>
+                                <p class="pricing-list__value">$75.00</p>
+                              </div>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="pricing__footer">
+                    <a class="button-light pricing__link" href="#">
+                      <span>Book an appointment</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-menu menu__popup"
+        data-popupname="_popup-menu"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close hidden">
+              <img src="assets/img/popup-close.svg" alt="close" />
+            </button>
+            <div class="popup__content">
+              <div class="modal-menu__header">
+                <button class="popup__close">
+                  <img src="assets/img/popup-close-black.svg" alt="close" />
+                </button>
+              </div>
+              <div class="modal-menu__main">
+                <nav class="menu">
+                  <ul class="menu-list">
+                    <li class="menu-list__item">
+                      <a class="menu__link" href="#" data-goto="false">Main</a>
+                    </li>
+                    <li class="menu-list__item">
+                      <button
+                        class="menu__link popup-open"
+                        data-popup="_popup-pricing"
+                      >
+                        Our pricing
+                      </button>
+                    </li>
+                    <li class="menu-list__item">
+                      <a class="menu__link anchor" href="#" data-goto=".footer">
+                        Conctact us
+                      </a>
+                    </li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="modal-menu__footer">
+                <button
+                  class="button-dark popup-open modal-menu__button"
+                  data-popup="_popup-pricing"
+                >
+                  <span>Schedule service</span>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-feedback thanks__popup"
+        data-popupname="_popup-thanks"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img src="assets/img/popup-close.svg" alt="close" />
+            </button>
+            <div class="popup__content">
+              <div class="popup-feedback">
+                <div class="popup-feedback__label">
+                  <img src="assets/img/success.svg" alt="success" />
+                </div>
+                <p class="popup-feedback__title">Thank you!</p>
+                <p class="popup-feedback__subtitle">
+                  We will call you back in a moment :)
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="popup popup-feedback error__popup"
+        data-popupname="_popup-error"
+        aria-modal="true"
+        role="dialog"
+      >
+        <div class="popup__overlay"></div>
+        <div class="popup__additional"></div>
+        <div class="popup__scroll">
+          <div class="popup__wrapper">
+            <button class="popup__close">
+              <img src="assets/img/popup-close.svg" alt="close" />
+            </button>
+            <div class="popup__content">
+              <div class="popup-feedback">
+                <div class="popup-feedback__label">
+                  <img src="assets/img/error.svg" alt="error" />
+                </div>
+                <p class="popup-feedback__title">Oops</p>
+                <p class="popup-feedback__subtitle">
+                  Something wrong. Try later.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="section quiz">
+      <form class="form hidden quiz__form" id="form-quiz" action="post">
+        <input class="hidden" id="quiz-zip" type="text" name="zip" />
+        <input class="hidden" id="quiz-brand" type="text" name="brand" />
+        <input class="hidden" id="quiz-day" type="text" name="day" />
+        <input class="hidden" id="quiz-time" type="text" name="time" />
+        <input class="hidden" id="quiz-details" type="text" name="details" />
+        <input class="hidden" id="quiz-adress" type="text" name="adress" />
+        <input
+          class="hidden"
+          id="quiz-adress-instruction"
+          type="text"
+          name="adress-instruction"
+        />
+        <input
+          class="hidden"
+          id="quiz-first-name"
+          type="text"
+          name="your-first-name"
+        />
+        <input
+          class="hidden"
+          id="quiz-last-name"
+          type="text"
+          name="your-last-name"
+        />
+        <input class="hidden" id="quiz-email" type="text" name="your-email" />
+        <input
+          class="hidden"
+          id="quiz-telephone"
+          type="tel"
+          name="your-phone"
+        />
+        <input class="hidden" id="quiz-submit" type="submit" />
+      </form>
+      <div class="_container quiz__container">
+        <div class="quiz__wrapper">
+          <div class="quiz-slider swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="quiz__item">
+                  <p class="quiz__title">
+                    Discover the top technician near you
+                  </p>
+                  <div class="quiz__main">
+                    <div class="quiz-zip">
+                      <input
+                        class="quiz-zip__input required"
+                        id="zip"
+                        type="number"
+                        name="zip"
+                        placeholder="Your zip code"
+                      />
+                      <div class="quiz__controls">
+                        <button class="button-light quiz-next locked">
+                          <span>Book an appointment</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="quiz__footer">
+                    <div class="quiz-call">
+                      <p class="quiz-call__title">Questions? Call</p>
+                      <a class="quiz-call__link" href="tel:+4917656953558">
+                        +49 176 56953558
+                      </a>
+                    </div>
+                    <a
+                      class="quiz__link"
+                      href="#"
+                      tagret="_blank"
+                      rel="noreferrer"
+                      >Terms and Conditions</a
+                    >
+                    <div class="quiz-price">
+                      <p class="quiz-price__value">$75</p>
+                      <p class="quiz-price__subtitle">Service call</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quiz__item">
+                  <p class="quiz__title">What is the brand of appliance?</p>
+                  <div class="quiz__main">
+                    <div class="quiz-brand">
+                      <input
+                        class="quiz-brand__input required"
+                        id="brand"
+                        type="text"
+                        name="brand"
+                        placeholder="Popular brands"
+                      />
+                      <div class="quiz__controls">
+                        <button class="button-light quiz-prev">
+                          <span>Back</span>
+                        </button>
+                        <button class="button-light quiz-next locked">
+                          <span>Continue</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="quiz__footer">
+                    <div class="quiz-call">
+                      <p class="quiz-call__title">Questions? Call</p>
+                      <a class="quiz-call__link" href="tel:+4917656953558">
+                        +49 176 56953558
+                      </a>
+                    </div>
+                    <a
+                      class="quiz__link"
+                      href="#"
+                      tagret="_blank"
+                      rel="noreferrer"
+                      >Terms and Conditions</a
+                    >
+                    <div class="quiz-price">
+                      <p class="quiz-price__value">$75</p>
+                      <p class="quiz-price__subtitle">Service call</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quiz__item">
+                  <p class="quiz__title">Pick arrival time that suits you</p>
+                  <div class="quiz__main">
+                    <div class="quiz-time">
+                      <div class="quiz-time__item">
+                        <p class="quiz-time__title">Choose the right day</p>
+                        <div
+                          class="quiz-time_content quiz-calendar input-container"
+                          data-input="day"
+                        >
+                          <div class="quiz-calendar-slider-controls">
+                            <button class="quiz-calendar-slider-prev">
+                              <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M16.7518 23.994L6.87885 14.121C6.31643 13.5584 6.00049 12.7955 6.00049 12C6.00049 11.2045 6.31643 10.4416 6.87885 9.87902L16.7458 0.0120239L18.1598 1.42602L8.29285 11.293C8.10538 11.4806 8.00006 11.7349 8.00006 12C8.00006 12.2652 8.10538 12.5195 8.29285 12.707L18.1658 22.58L16.7518 23.994Z"
+                                  fill="currentColor"
+                                  fill-opacity="0.62"
+                                />
+                              </svg>
+                            </button>
+                            <button class="quiz-calendar-slider-next">
+                              <svg
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M7.24815 23.994L17.1212 14.121C17.6836 13.5584 17.9995 12.7955 17.9995 12C17.9995 11.2045 17.6836 10.4416 17.1212 9.87902L7.25415 0.0120239L5.84015 1.42602L15.7072 11.293C15.8946 11.4806 15.9999 11.7349 15.9999 12C15.9999 12.2652 15.8946 12.5195 15.7072 12.707L5.83415 22.58L7.24815 23.994Z"
+                                  fill="currentColor"
+                                  fill-opacity="0.62"
+                                />
+                              </svg>
+                            </button>
+                          </div>
+                          <div class="quiz-calendar-slider swiper">
+                            <div class="swiper-wrapper">
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button active"
+                                  data-value="Sep 25"
+                                >
+                                  <span class="quiz-calendar-button__month">
+                                    Sep
+                                  </span>
+                                  <span class="quiz-calendar-button__day">
+                                    25
+                                  </span>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button"
+                                  data-value="Sep 26"
+                                >
+                                  <span class="quiz-calendar-button__month">
+                                    Sep
+                                  </span>
+                                  <span class="quiz-calendar-button__day">
+                                    26
+                                  </span>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button"
+                                  data-value="Sep 27"
+                                >
+                                  <span class="quiz-calendar-button__month">
+                                    Sep
+                                  </span>
+                                  <span class="quiz-calendar-button__day">
+                                    27
+                                  </span>
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button"
+                                  data-value="Sep 28"
+                                >
+                                  <span class="quiz-calendar-button__month"
+                                    >Sep</span
+                                  ><span class="quiz-calendar-button__day"
+                                    >28</span
+                                  >
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button"
+                                  data-value="Sep 29"
+                                >
+                                  <span class="quiz-calendar-button__month"
+                                    >Sep</span
+                                  ><span class="quiz-calendar-button__day"
+                                    >29</span
+                                  >
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button"
+                                  data-value="Sep 30"
+                                >
+                                  <span class="quiz-calendar-button__month"
+                                    >Sep</span
+                                  ><span class="quiz-calendar-button__day"
+                                    >30</span
+                                  >
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button"
+                                  data-value="Oct 1"
+                                >
+                                  <span class="quiz-calendar-button__month"
+                                    >Oct</span
+                                  ><span class="quiz-calendar-button__day"
+                                    >1</span
+                                  >
+                                </button>
+                              </div>
+                              <div class="swiper-slide">
+                                <button
+                                  class="input-container__button quiz-calendar-button"
+                                  data-value="Oct 2"
+                                >
+                                  <span class="quiz-calendar-button__month"
+                                    >Oct</span
+                                  ><span class="quiz-calendar-button__day"
+                                    >2</span
+                                  >
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="quiz-time__item">
+                        <p class="quiz-time__title">Choose the right time</p>
+                        <div class="quiz-time_content">
+                          <div
+                            class="quiz-time-period input-container"
+                            data-input="time"
+                          >
+                            <button
+                              class="input-container__button quiz-time-period__button active"
+                              data-value="9 am - 10 am"
+                            >
+                              <span>9 am - 10 am</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="10 am - 12 am"
+                            >
+                              <span>10 am - 12 am</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="11 am - 1 pm"
+                            >
+                              <span>11 am - 1 pm</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="12 am - 2 pm"
+                            >
+                              <span>12 am - 2 pm</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="1 pm - 3 pm"
+                            >
+                              <span>1 pm - 3 pm</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="2 pm - 4 pm"
+                            >
+                              <span>2 pm - 4 pm</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="3 pm - 5 pm"
+                            >
+                              <span>3 pm - 5 pm</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="4 pm - 6 pm"
+                            >
+                              <span>4 pm - 6 pm</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="5 pm - 7 pm"
+                            >
+                              <span>5 pm - 7 pm</span>
+                            </button>
+                            <button
+                              class="input-container__button quiz-time-period__button"
+                              data-value="6 pm - 8 pm"
+                            >
+                              <span>6 pm - 8 pm</span>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="quiz__controls">
+                        <button class="button-light quiz-prev">
+                          <span>Back</span>
+                        </button>
+                        <button class="button-light quiz-next">
+                          <span>Continue</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="quiz__footer">
+                    <div class="quiz-call">
+                      <p class="quiz-call__title">Questions? Call</p>
+                      <a class="quiz-call__link" href="tel:+4917656953558">
+                        +49 176 56953558
+                      </a>
+                    </div>
+                    <a
+                      class="quiz__link"
+                      href="#"
+                      tagret="_blank"
+                      rel="noreferrer"
+                    >
+                      Terms and Conditions
+                    </a>
+                    <div class="quiz-price">
+                      <p class="quiz-price__value">$75</p>
+                      <p class="quiz-price__subtitle">Service call</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quiz__item">
+                  <p class="quiz__title">
+                    Where shall we send your technician?
+                  </p>
+                  <div class="quiz__main">
+                    <div class="quiz-details">
+                      <textarea
+                        class="quiz-details__textarea"
+                        id="details"
+                        name="details"
+                        placeholder="Optional"
+                      ></textarea>
+                      <div class="quiz__controls">
+                        <button class="button-light quiz-prev">
+                          <span>Back</span>
+                        </button>
+                        <button class="button-light quiz-next">
+                          <span>Continue</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="quiz__footer">
+                    <div class="quiz-call">
+                      <p class="quiz-call__title">Questions? Call</p>
+                      <a class="quiz-call__link" href="tel:+4917656953558">
+                        +49 176 56953558
+                      </a>
+                    </div>
+                    <a
+                      class="quiz__link"
+                      href="#"
+                      tagret="_blank"
+                      rel="noreferrer"
+                      >Terms and Conditions</a
+                    >
+                    <div class="quiz-price">
+                      <p class="quiz-price__value">$75</p>
+                      <p class="quiz-price__subtitle">Service call</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quiz__item">
+                  <p class="quiz__title">
+                    Where shall we send your technician?
+                  </p>
+                  <div class="quiz__main">
+                    <div class="quiz-adress">
+                      <input
+                        class="quiz-adress__input required"
+                        id="adress"
+                        name="adress"
+                        placeholder="Address"
+                      />
+                      <textarea
+                        class="quiz-instruction__textarea"
+                        id="adress-instruction"
+                        name="adress-instruction"
+                        placeholder="Add address instruction"
+                      ></textarea>
+                      <div class="quiz__controls">
+                        <button class="button-light quiz-prev">
+                          <span>Back</span>
+                        </button>
+                        <button class="button-light quiz-next locked">
+                          <span>Continue</span>
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="quiz__footer">
+                    <div class="quiz-call">
+                      <p class="quiz-call__title">Questions? Call</p>
+                      <a class="quiz-call__link" href="tel:+4917656953558">
+                        +49 176 56953558
+                      </a>
+                    </div>
+                    <a
+                      class="quiz__link"
+                      href="#"
+                      tagret="_blank"
+                      rel="noreferrer"
+                    >
+                      Terms and Conditions
+                    </a>
+                    <div class="quiz-price">
+                      <p class="quiz-price__value">$75</p>
+                      <p class="quiz-price__subtitle">Service call</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="quiz__item">
+                  <p class="quiz__title">
+                    Where can we send imprtant updates about your appointment?
+                  </p>
+                  <div class="quiz__main">
+                    <div class="quiz-info">
+                      <div class="quiz-info__wrapper">
+                        <input
+                          class="quiz-info__input required"
+                          id="first-name"
+                          type="text"
+                          name="your-first-name"
+                          placeholder="First name"
+                        />
+                        <input
+                          class="quiz-info__input required"
+                          id="last-name"
+                          type="text"
+                          name="your-last-name"
+                          placeholder="Last name"
+                        />
+                      </div>
+                      <div class="quiz-info__wrapper">
+                        <input
+                          class="quiz-info__input required"
+                          id="your-email"
+                          type="email"
+                          name="your-email"
+                          placeholder="Email"
+                        />
+                        <input
+                          class="quiz-info__input required"
+                          id="your-phone"
+                          type="tel"
+                          name="your-phone"
+                          placeholder="Phone"
+                        />
+                      </div>
+                      <div class="quiz__controls">
+                        <label
+                          class="button-light quiz-submit locked"
+                          for="quiz-submit"
+                        >
+                          <span>Request appointment</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="quiz__footer">
+                    <div class="quiz-call">
+                      <p class="quiz-call__title">Questions? Call</p>
+                      <a class="quiz-call__link" href="tel:+4917656953558">
+                        +49 176 56953558
+                      </a>
+                    </div>
+                    <a
+                      class="quiz__link"
+                      href="#"
+                      tagret="_blank"
+                      rel="noreferrer"
+                    >
+                      Terms and Conditions
+                    </a>
+                    <div class="quiz-price">
+                      <p class="quiz-price__value">$75</p>
+                      <p class="quiz-price__subtitle">Service call</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="_container">
+        <div class="footer__wrapper">
+          <div class="footer-main">
+            <div class="footer-main__item">
+              <p class="footer-main__title">Contacts</p>
+              <ul class="footer-contacts">
+                <li>
+                  <a class="footer-contacts__item" href="tel:+4917656953558">
+                    <span class="footer-contacts__label">
+                      <img
+                        src="assets/img/contacts/telephone.svg"
+                        alt="telephone"
+                      />
+                    </span>
+                    <span class="footer-contacts__text">
+                      +49 176 56953558
+                    </span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    class="footer-contacts__item"
+                    href="mailto:example@gmail.com"
+                  >
+                    <span class="footer-contacts__label">
+                      <img src="assets/img/contacts/mail.svg" alt="mail" />
+                    </span>
+                    <span class="footer-contacts__text">
+                      example@gmail.com
+                    </span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="footer-main__item">
+              <p class="footer-main__title">Menu</p>
+              <nav class="footer-navigation">
+                <ul class="footer-navigation__list">
+                  <li class="footer-navigation__li">
+                    <ul class="footer-navigation__col">
+                      <li class="footer-navigation__row">
+                        <button
+                          class="footer-navigation__item popup-open"
+                          data-popup="_popup-pricing"
+                        >
+                          Our pricing
+                        </button>
+                      </li>
+                      <li class="footer-navigation__row">
+                        <a
+                          class="footer-navigation__item anchor"
+                          href="#"
+                          data-goto=".steps"
+                        >
+                          How it works
+                        </a>
+                      </li>
+                      <li class="footer-navigation__row">
+                        <a
+                          class="footer-navigation__item anchor"
+                          href="#"
+                          data-goto=".feedback"
+                        >
+                          Find the best technician in your area
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="footer-navigation__li">
+                    <ul class="footer-navigation__col">
+                      <li class="footer-navigation__row">
+                        <a
+                          class="footer-navigation__item anchor"
+                          href="#"
+                          data-goto=".footer"
+                        >
+                          Contacts
+                        </a>
+                      </li>
+                      <li class="footer-navigation__row">
+                        <a
+                          class="footer-navigation__item"
+                          href="#"
+                          data-goto="false"
+                        >
+                          Privacy Policy
+                        </a>
+                      </li>
+                      <li class="footer-navigation__row">
+                        <a
+                          class="footer-navigation__item"
+                          href="#"
+                          data-goto="false"
+                        >
+                          Terms and Conditions
+                        </a>
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="footer-main__item">
+              <p class="footer-main__title">Recording</p>
+              <a class="button-light footer-main__button" href="#">
+                <span>Book an appointment for service</span>
+              </a>
+            </div>
+          </div>
+          <div class="footer-bottom">
+            <div class="footer-bottom__item">
+              <p class="footer__copyright">
+                © 2023 Copyright 2023 SHAHDAGFIX. All Rights Reserved.
+              </p>
+            </div>
+            <div class="footer-bottom__item">
+              <a
+                class="develop"
+                href="https://impulse-design.com.ua/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <span class="develop__text">Developed By</span>
+                <span class="develop__img">
+                  <img src="assets/img/impulse.svg" alt="impulse" />
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/vevet@2.17.0/build/cdn/index.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
