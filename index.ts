@@ -954,7 +954,51 @@ vevet.pageLoad.onLoaded(() => {
             input.value = '';
           }
         });
+
+        slider.slides.forEach((slide) => {
+          const isHasRequired =
+            slide.querySelectorAll<HTMLElement>('input.required').length !== 0;
+
+          const buttonArray = slide.querySelectorAll<HTMLElement>(
+            '.quiz-next, .quiz-submit'
+          );
+
+          if (!isHasRequired || buttonArray.length === 0) {
+            return;
+          }
+
+          buttonArray.forEach((button) => {
+            button.classList.add('locked');
+          });
+        });
       }, 400);
+    });
+  };
+
+  const buttonLockHandler = (slide: HTMLElement) => {
+    const inputRequiredArray =
+      slide.querySelectorAll<HTMLInputElement>('input.required');
+
+    if (inputRequiredArray.length === 0) {
+      return;
+    }
+
+    const buttonArray = slide.querySelectorAll<HTMLElement>(
+      '.quiz-next, .quiz-submit'
+    );
+
+    let isHasValue = false;
+
+    inputRequiredArray.forEach((input) => {
+      isHasValue = !input.value;
+    });
+
+    if (!isHasValue || buttonArray.length === 0) {
+      return;
+    }
+
+    buttonArray.forEach((button) => {
+      button.classList.add('locked');
     });
   };
 
@@ -967,6 +1011,7 @@ vevet.pageLoad.onLoaded(() => {
     initButtonsNextPrev(slider);
 
     slider.slides.forEach((slide) => {
+      buttonLockHandler(slide);
       inputRequieredHandler(slide);
     });
 
