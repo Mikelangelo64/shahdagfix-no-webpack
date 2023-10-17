@@ -725,9 +725,27 @@ vevet.pageLoad.onLoaded(function () {
       }, 400);
     });
   };
+  var buttonLockHandler = function (slide) {
+    var inputRequiredArray = slide.querySelectorAll('input.required');
+    if (inputRequiredArray.length === 0) {
+      return;
+    }
+    var buttonArray = slide.querySelectorAll('.quiz-next, .quiz-submit');
+    var isHasValue = false;
+    inputRequiredArray.forEach(function (input) {
+      isHasValue = !input.value;
+    });
+    if (!isHasValue || buttonArray.length === 0) {
+      return;
+    }
+    buttonArray.forEach(function (button) {
+      button.classList.add('locked');
+    });
+  };
   var initFormControl = function (form, slider, sliders, calendarDaysCount) {
     initButtonsNextPrev(slider);
     slider.slides.forEach(function (slide) {
+      buttonLockHandler(slide);
       inputRequieredHandler(slide);
     });
     calendarInit(sliders, calendarDaysCount);
